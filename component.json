@@ -1,0 +1,11 @@
+{
+    "name": "gazira-pagination",
+    "version": "0.0.1",
+    "main": "index.js",
+    "dependencies": {
+        "component/jquery": "1.0.0",
+        "gazira/widget": "master",
+        "gazira/templatable": "master",
+        "gazira/ajax.single": "master"
+    }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pagination</title>
+    <meta charset="utf-8"/>
+    <link href="./style.css" rel="stylesheet" type="text/css" media="all"/>
+</head>
+<body>
+
+<div>
+    总条数:
+    <select id="total">
+        <option value="0">0</option>
+        <option value="10">10</option>
+        <option value="40">40</option>
+        <option value="120" selected>120</option>
+    </select>
+
+    每页数:
+    <select id="per_page">
+        <option value="10">10</option>
+        <option value="3">3</option>
+    </select>
+
+    当前页:
+    <select id="current"></select>
+</div>
+<div id="p1"></div>
+
+<hr/>
+
+<p>ajax例子</p>
+
+<div id="data2"></div>
+<div id="p2"></div>
+
+
+<hr/>
+<p>自定义模板</p>
+<div id="data3"></div>
+<div id="p3"></div>
+
+<script src="./dist.js"></script>
+</body>
+</html>
